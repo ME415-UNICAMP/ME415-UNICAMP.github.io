@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 * Professora: [Samara F. Kiihl](http://samarafk.github.io/)
-* ME415: Sexta-feira 14-18 ([Google Agenda](https://calendar.google.com/calendar?cid=MnJnbWNzOGlvcmxobXRpbTg0ajQ5cWh0ZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+* ME415: Sexta-feira 14-18.
 * Comunicação por email: APENAS pelo email samara@ime.unicamp.br, APENAS com [ME415-A] ou [ME610-A] especificado no assunto da mensagem, APENAS remetentes de emails institucionais da Unicamp: .unicamp.br. Qualquer outra mensagem de aluno sem essas especificações [será ignorada](images/hqdefault.jpg).
 * Atividades e notas estão disponíveis na [página do Moodle](http://www.ggte.unicamp.br/eam/course/view.php?id=2184). Utilize o navegador Firefox em caso de enunciado com fórmulas.
 * Sobre abono de faltas, consulte o [regimento](http://www.dac.unicamp.br/portal/grad/regimento/capitulo_v/secao_x/).

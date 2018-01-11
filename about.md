@@ -15,7 +15,7 @@ permalink: /about/
 
 ### Bibliografia
 
-* Jonker, J. and Pennink, B. (2010). The essence of Research Methodology.
+* Jonker, J. and Pennink, B. (2010). [The essence of Research Methodology](https://link.springer.com/book/10.1007%2F978-3-540-71659-4).
 * Peng, R. D. (2015). [Exploratory Data Analysis with R](https://leanpub.com/exdata).
 * Popper, K. R. (1993). A Lógica da Pesquisa Científica. 
 * Volpato, G. L. (2015). Guia Prático para Redação Científica.

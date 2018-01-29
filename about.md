@@ -17,10 +17,10 @@ permalink: /about/
 
 * Jonker, J. and Pennink, B. (2009). [The essence of Research Methodology](https://link.springer.com/book/10.1007%2F978-3-540-71659-4).
 * Peng, R. D. (2015). [Exploratory Data Analysis with R](https://leanpub.com/exdata).
-* Popper, K. R. (1993). A Lógica da Pesquisa Científica. 
-* Volpato, G. L. (2015). Guia Prático para Redação Científica.
-* Volpato, G. (2012). Dicas de redação científica. 
-* Volpato, G. (2007). Bases Teóricas para Redação Científica.
+* Popper, K. R. [A Lógica da Pesquisa Científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000141546&lang=pt-br&site=eds-live&scope=site). 
+* Volpato, G. L. (2015). [Guia Prático para Redação Científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000963830&lang=pt-br&site=eds-live&scope=site).
+* Volpato, G. (2012). [Dicas de redação científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000893396&lang=pt-br&site=eds-live&scope=site). 
+* Volpato, G. (2007). [Bases Teóricas para Redação Científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000771027&lang=pt-br&site=eds-live&scope=site).
 
 Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar do VPN. Veja instruções de instalação [aqui](http://www.ccuec.unicamp.br/ccuec/acesso_remoto_vpn).
 

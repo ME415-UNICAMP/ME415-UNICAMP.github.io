@@ -21,6 +21,7 @@ permalink: /about/
 * Volpato, G. L. (2015). [Guia Prático para Redação Científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000963830&lang=pt-br&site=eds-live&scope=site).
 * Volpato, G. (2012). [Dicas de redação científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000893396&lang=pt-br&site=eds-live&scope=site). 
 * Volpato, G. (2007). [Bases Teóricas para Redação Científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000771027&lang=pt-br&site=eds-live&scope=site).
+* Peng, R. D. (2015) [Report Writing for Data Science in R](https://leanpub.com/reportwriting).
 
 Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar do VPN. Veja instruções de instalação [aqui](http://www.ccuec.unicamp.br/ccuec/acesso_remoto_vpn).
 

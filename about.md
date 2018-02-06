@@ -22,6 +22,7 @@ permalink: /about/
 * Volpato, G. (2012). [Dicas de redação científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000893396&lang=pt-br&site=eds-live&scope=site). 
 * Volpato, G. (2007). [Bases Teóricas para Redação Científica](http://search.ebscohost.com/login.aspx?direct=true&db=cat04198a&AN=unicamp.000771027&lang=pt-br&site=eds-live&scope=site).
 * Peng, R. D. (2015) [Report Writing for Data Science in R](https://leanpub.com/reportwriting).
+* Leek, J. (2015) [The Elements of Data Analytic Style](https://leanpub.com/datastyle).
 
 Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar do VPN. Veja instruções de instalação [aqui](http://www.ccuec.unicamp.br/ccuec/acesso_remoto_vpn).
 

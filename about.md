@@ -26,16 +26,14 @@ Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar 
 
 ### Critérios de Avaliação e Datas Importantes
 
-* P1: Projeto 1 ()
-* P2: Projeto 2 ()
-* Ap: Apresentação Oral do Projeto ()
-* A: Atividades em aula, testes, exercícios, laboratórios
 * MG: Média Geral
 * MF: Média Final
-* NE: Nota do Exame (11/07/2016)
+* NE: Nota do Exame (13/07/2018)
 
-MG = 0.30 P1 + 0.35 P2 + 0.35 A
+MG = média das atividades
 
-Se MG >= 7, o aluno estará aprovado e MF=MG
+Se MG >= 7, o aluno estará aprovado e MF = MG
 
-Se MG < 7 o aluno deverá fazer exame e MF=(MG+NE)/2.
+Se MG < 7 e frequência inferior a 75% o aluno está reprovado por falta e MF = MG 
+
+Se MG < 7 e frequência de pelo menos 75% o aluno deverá fazer exame e MF = (MG+NE)/2.

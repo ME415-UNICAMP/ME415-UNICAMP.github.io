@@ -34,8 +34,8 @@ Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar 
 
 MG = média das atividades
 
-Se MG >= 7, o aluno estará aprovado e MF = MG
+Se MG < 2.5 ou frequência inferior a 75%, o aluno estará reprovado e MF = MG
 
-Se MG < 7 e frequência inferior a 75% o aluno está reprovado por falta e MF = MG 
+Se 2.5 ≤ MG < 7 e frequência mínima de 75%, o aluno poderá fazer exame e MF = (MG+NE)/2
 
-Se MG < 7 e frequência de pelo menos 75% o aluno deverá fazer exame e MF = (MG+NE)/2.
+Se MG >= 7 e frequência mínima de 75%, o aluno estará aprovado e MF = MG

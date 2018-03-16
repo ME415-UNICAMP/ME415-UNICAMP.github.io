@@ -1,0 +1,28 @@
+---
+title: "Atividade 01"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Erupções do geiser
+
+Um dos gêiseres mais famosos do mundo, o ["Old Faithful"](https://pt.wikipedia.org/wiki/Old_Faithful), está localizado no Parque Nacional de Yellowstone, nos EUA. Visitantes do parque têm grande interesse em assistir à erupção do geiser, mas desejam se programar para melhor aproveitamento das outras atrações do parque. Para maior conveniência dos visitantes, a administração do parque deseja colocar uma sinalização avisando o tempo da próxima erupção. Você foi o estatístico contratado para passar à administração como fazer essa predição.
+
+
+A descrição do conjunto de dados é obtida através dos seguintes comandos no R:
+
+```{r load,echo=TRUE}
+library(MASS)
+help(geyser)
+```
+
+
+Utilizando esses dados, qual a informação que você irá passar para a administração do parque com relação ao tempo entre as erupções?
+
+Apresente seus resultados através de um relatório reprodutível a ser entregue para a administração do parque.
+
+
+

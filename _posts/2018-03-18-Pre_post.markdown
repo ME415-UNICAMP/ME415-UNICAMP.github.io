@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "How should I approach the classic pre-post analysis?"
+date:   2018-03-18 11:48:19
+categories: Rmarkdown
+---
+
+[How should I approach the classic pre-post analysis?](https://www.rdatagen.net/post/thinking-about-the-run-of-the-mill-pre-post-analysis/)

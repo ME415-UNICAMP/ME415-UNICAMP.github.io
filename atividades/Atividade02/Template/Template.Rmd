@@ -1,0 +1,51 @@
+---
+title: Título
+author: "Aluno 1 RA 1, Aluno 2 RA 2"
+bibliography: mybibfile.bib
+output: pdf_document
+lang: pt
+---
+
+
+# Introdução
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
+
+A list
+
+- Item 1
+- Item 2
+
+Here are two sample references: @Feynman1963118, @Dirac1953888.
+
+Figura \ref{fig1} e Tabela \ref{tab1}.
+
+```{r, echo=FALSE, fig.cap = "figure caption. \\label{fig1}", fig.height=6, fig.width=6}
+plot(iris)
+```
+
+```{r xtable, results="asis",echo=FALSE,message=FALSE,warning=FALSE}
+n <- 100
+x <- rnorm(n)
+y <- 2*x + rnorm(n)
+out <- lm(y ~ x)
+library(xtable)
+tab <- xtable(summary(out)$coef, digits=c(0, 2, 2, 1, 2),caption = 'Table Caption',label="tab1")
+print(tab, type="latex",comment=FALSE)
+```
+
+
+
+
+
+# Métodos
+
+
+# Resultados
+
+
+
+# Discussão
+
+
+# Referências {#references .unnumbered}

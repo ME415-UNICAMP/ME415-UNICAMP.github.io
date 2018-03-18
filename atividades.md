@@ -16,3 +16,4 @@ Os exercícios da plataforma [DataCamp](https://www.datacamp.com) deverão ser f
 # Outras atividades
 
 * [Atividade 1](Atividade01/Atividade01.pdf) - individual
+* [Atividade 2](Atividade02/Atividade02.pdf) - [( .Rmd do enunciado](Atividade02/Atividade02.Rmd.zip), [Template para entrega)](Atividade02/Templte.Rmd.zip) - grupo

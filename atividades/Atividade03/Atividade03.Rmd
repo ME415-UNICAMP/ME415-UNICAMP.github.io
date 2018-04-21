@@ -1,0 +1,78 @@
+
+# Como o discurso de Trump se compara aos dos demais presidentes?
+
+Você foi contratado por uma *startup* e a empresa gosta de publicar em seu blog assuntos variados relacionados a *Data Science*. As postagens são feitas pelos seus colegas. Em um *happy hour* da empresa, surgiu uma discussão sobre Trump e os demais presidentes, daí você teve a idéia para sua postagem de estréia no blog: uma análise quantitativa sobre todos os discursos do *State of the Union Address* realizados até hoje.
+
+**Você deverá produzir um arquivo `.Rmd` que gerará um `.html` simples (a empresa se encarregará de colocar seu post no blog, com a devida formatação). Entregue uma pasta `.zip` com o `.Rmd` e arquivos auxiliares necessários.**
+
+O [State of the Union Address](https://en.wikipedia.org/wiki/State_of_the_Union) é um discurso anual do presidente dos EUA para o Congresso.
+
+
+O primeiro discurso do atual presidente dos EUA, Donald Trump, pode ser conferido [aqui](https://www.buzzfeed.com/passantino/heres-the-full-text-of-president-trumps-first-state-of-the?utm_term=.gi58BaBRD7).
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(out.width="900px", dpi=300)
+```
+
+
+### Obtenção dos dados
+
+Utilize os arquivos `sou.csv` e `presidents.csv`, com informações de todos os discursos do *State of the Union Address* obtidos através do projeto [American Presidency Project](http://www.presidency.ucsb.edu/sou.php) da Universidade da Califórnia.
+
+
+### Pacotes (possivelmente) úteis
+
+```{r, results="hide", warning=FALSE, message=FALSE}
+library(tidyr)
+library(tidytext)
+library(quanteda)
+library(ggplot2)
+library(DT)
+library(readr)
+library(dplyr)
+library(stringr)
+library(lubridate)
+```
+
+### Lendo os dados
+
+Leia os dados, unindo a informação dos dois arquivos. O arquivo resultante deve ter 232 observações. Umas das funções da família `join` do pacote `dplyr` pode ser útil.
+
+
+
+### Os discursos estão mais fáceis de entender?
+
+Os [testes de legibilidade de Flesch-Kincaid](https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests) foram projetados para indicar a dificuldade de compreensão durante a leitura de uma passagem de inglês acadêmico contemporâneo. Há dois testes: o índice de Flesch da facilidade de leitura (Flesch reading ease) e o grau de escolaridade Flesch-Kincaid (Flesch-Kincaid grade level). 
+
+As funções `nsyllable`, `nsentence`, `ntoken` do pacote `quanteda` podem ser úteis para calcular os dois testes para cada discurso. Ao longo do tempo, os discursos estão mais fáceis ou mais difíceis de entender, segundo essa(s) métrica(s)? Escolha uma forma de apresentar esses dados de maneira que o leitor chegue a uma conclusão rápida, afinal, estamos em um blog.
+
+
+
+### Esses discursos pendem mais para o lado positivo?
+
+[Bing Lui](https://www.cs.uic.edu/~liub/), da University of Illinois at Chicago, desenvolveu um [léxico](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html) para *sentiment analysis*.
+
+Calcule a porcentagem de palavras *positivas* com relação ao total de palavras em cada discurso (pacote `tidytext`). Há alguma mudança ao longo do tempo? Há partidos com discursos mais *positivos* do que outros? Represente tudo isso em um único gráfico.
+
+
+Tutorial sobre *Sentiment Analysis* no R: [https://uc-r.github.io/sentiment_analysis](https://uc-r.github.io/sentiment_analysis)
+
+
+Para carregar o léxico de Bing, use:
+
+```{r, eval=FALSE, warning=FALSE, message=FALSE}
+bing <- get_sentiments("bing")
+```
+
+
+### Temas mais frequentes nos discursos de cada presidente
+
+Divida o texto de cada discurso em pares de palavras (bigramas), filtrando bigramas contendo *stop words*. Calcule a porcentagem de cada bigrama usado em cada discurso. Faça um gráfico de barras mostrando o bigrama mais usado em cada discurso (não precisa colocar todos os discursos no gráfico, os 10 mais, por exemplo). Apresente também os bigramas mais comuns no discurso do Trump. 
+
+Confira os tutoriais: [https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html](https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html) e [https://www.tidytextmining.com/ngrams.html](https://www.tidytextmining.com/ngrams.html).
+
+
+### O que mais você quiser mostrar!
+
+

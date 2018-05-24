@@ -20,7 +20,7 @@ Cada grupo (os mesmos da Atividade 2) deverá entregar:
 * Resumo escrito à mão do texto [The art of writing science](https://dx.doi.org/10.1002%2Fpro.514). 
 **Cada membro do grupo deverá produzir o seu próprio resumo**.
 * 5 exemplos de artigos científicos em que os métodos estatísticos utilizados na Atividade 2 foram utilizados. Envie um arquivo compactado (`.zip`), via Moodle, contendo os arquivos `.pdf` dos artigos, com os **trechos dos métodos utilizados grifados**.
-* Atividade 2 refeita, escrita à mão. Caso haja algum gráfico, o mesmo deve apenas ser listado no texto.
+* Atividade 2 refeita, escrita à mão. Caso haja algum gráfico, o mesmo deve apenas ser citado corretamente no texto.
 
 
 Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar do VPN. Veja instruções de instalação [aqui](https://www.ccuec.unicamp.br/ccuec/servicos/acesso_remoto_vpn).

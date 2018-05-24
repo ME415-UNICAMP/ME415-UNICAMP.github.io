@@ -10,7 +10,7 @@ Leiam com atenção os textos:
 
 * [Dicas de escrita (no moodle)](http://www.ggte.unicamp.br/eam/mod/resource/view.php?id=136829).
 
-* [The art of writing science](The art of writing science).
+* [The art of writing science](https://dx.doi.org/10.1002%2Fpro.514).
 
 
 Façam buscas, utilizando o [Google Scholar](https://scholar.google.com), dos métodos estatísticos utilizados na Atividade 2. Como os resultados costumam ser apresentados em artigos científicos? 
